@@ -1,0 +1,36 @@
+@media screen and (min-width: 1024px) {
+    .headpage{
+        padding: 0 4rem 4rem 4rem;
+    }
+    .headline{
+        flex: 30%;
+    }
+
+    .imagem{
+        flex: 30%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .headpage{
+        flex-direction: column;
+    }
+    .menu{
+        margin-left: -500%;
+    }
+    .menu-botoes{
+        display: block;
+    }
+
+    .texto-apresentacao h1, p{
+        margin: 0;
+        margin-left: 0;
+    }
+    .texto-apresentacao h1{
+        font-size: 1rem;
+    }
+}
+
+
+

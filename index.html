@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Portfólios</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <script src="assets/js/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="assets/css/responsivo.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body  id="tema" class="body">
+    <!--Area do cabeçalho-->
+    <header id="header" class="header">
+        <!--Area dos Menus-->
+        <div class="menuMob">
+            <div onclick="abrirMenu()" class="menu-botoes">
+                <div class="linha"></div>
+                <div class="linha"></div>
+                <div class="linha"></div>
+            </div>
+            <nav id="menu" class="menu">
+                <a href="#">Home</a>
+                <a href="#">Meu Github</a>
+                <a href="#">BIO</a>
+                <a href="#">Fale Comigo</a>
+            </nav>
+        </div>
+        <div class="tema">
+            <i id="icone" onclick="mudarTema()" class="mdi mdi-weather-night"></i>
+        </div>
+    </header>
+    <main id="mainID" class="main" onclick="fecharMenu()">
+        <section class="headpage">
+            <section class="headline">
+                <h1>Bem vindo aos meus Portfólios</h1>
+                <p>Meu nome é Willames, sou um Desenvolvedor Front-End</p>
+            </section>
+            <section class="imagem">
+                <figure>
+                    <img src="assets/misc/img/download.png" alt="Willames, criador do site. Pardo, com barba média sorrindo e com uma camisa de botão branca.">
+                </figure>
+            </section>
+        </section>
+        <hr>
+        <section class="section">
+            <article class="quem-sou-eu">
+                <h2>Quem sou eu?</h2>
+                <p>Meu nome é Willames da Silva Barbosa, tenho 22 anos. 
+                Estou no último período de Análise e Desenvolvimento de 
+                Sistemas. Sou Desenvolvedor Front-End.
+            </p>
+            </article>
+            <article class="linguagens">
+                <h2>Tecnologias que utilizo</h2>
+                <img src="assets/misc/icons/icons8-html-5-48.png" alt="">
+                <img src="assets/misc/icons/icons8-css3-48.png" alt="">
+                <img src="assets/misc/icons/icons8-javascript-48.png" alt="">
+                <img src="assets/misc/icons/icons8-python-48.png" alt="">
+                <img src="assets/misc/icons/icons8-reagir-40.png" alt="">
+                <img src="assets/misc/icons/icons8-git-48.png" alt="">
+                <img src="assets/misc/icons/icons8-github-30.png" alt="">
+            </article>
+        </section>
+    </main>
+</body>
+</html

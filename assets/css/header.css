@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0df;
+    transition: 1s;
+}
+
+
+/*Área do header com tema light*/
+
+.header{
+    position: relative;
+    display: flex;
+    background-color: #79b4b7;
+    padding: 3rem;
+    text-align: center;
+    transition: 1s;
+}
+
+.menuMob{
+    flex: 95%;
+}
+
+.menu{
+    text-align: center;
+
+}
+
+.menu a{
+    font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    transition: 2s;
+}
+
+.menu a:hover{
+    color:  #000000;
+}
+
+.menu a:not(:last-child){
+    margin-right: 5rem;
+}
+
+/*Area dos botões dos temas*/
+
+.tema{
+    flex: 5%;
+}
+
+.mdi-weather-night{
+    color: #f8f0df;
+    font-size: 1.5rem;
+    transition: 2s;
+}
+.mdi-weather-night:hover{
+    color: #000000;
+}
+
+.mdi-white-balance-sunny{
+    color: #f8f0df;
+    font-size: 1.5rem;
+}
+
+
+/*FIM DA AREA COM TEMA LIGHT*/
+
+/*INICIO DA AREA COM TEMA DARK*/
+
+.body.dark{
+    background-color: #334756;
+    transition: 1s;
+}
+
+.header.dark{
+    background-color: #082032;
+    transition: 1s;
+}
+
+
+/*Area do menu responsivo*/
+
+.menu-botoes{
+    display: none;
+}
+
+.linha{
+    background-color: #f8f0df;
+    width: 2rem;
+    height: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.menu-botoes::nth-last-of-type{
+    display: none;
+}
+
+.menu.clicado{
+    margin-top: 2rem;
+    height: 82.5vh;
+    transition: 0.5s;
+    margin-left: 0;
+}
+.menu.clicado a{
+    display: block;
+    text-align: left;
+    margin: 0 0 2rem 0;
+}

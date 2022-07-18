@@ -1,0 +1,91 @@
+.main.hide{
+    display: none;
+}
+
+.main{
+    margin-top: 5rem;
+}
+
+.headpage{
+    display: flex;
+    justify-items: center;
+}
+
+.headline{
+    margin-top: 3rem;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #9D9D9D;
+
+}
+
+.headline h1{
+    font-size: 3rem;
+}
+
+.headline p{
+    letter-spacing: 0.05rem;
+    margin-top: -2rem;
+}
+
+.imagem{
+    align-items: center;
+}
+
+.imagem img{
+    width: 80%;
+    margin-top: 3rem;
+    margin-left: 10%;
+}
+
+figcaption p{
+    text-align: center;
+    opacity: 0.3;
+    font-size: 0.5rem;
+}
+
+
+hr{
+    margin-top: 5rem;
+    width: 90%;
+}
+
+.quem-sou-eu{
+    margin-top: 4rem;
+    text-align: center;
+    color: #9D9D9D;
+}
+
+.quem-sou-eu h2{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.quem-sou-eu p{
+    font-family: 'Oswald', sans-serif;
+
+}
+.linguagens{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.linguagens h2{
+    color: #9D9D9D;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.linguagens img{
+    
+    width: 45px;
+    height: 45px;
+}
+@media screen and (max-width: 320px){
+    .linguagens img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+
