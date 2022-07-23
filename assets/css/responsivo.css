@@ -12,13 +12,16 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 900px){
     .headpage{
         flex-direction: column;
     }
     .menu{
-        margin-left: -500%;
+        margin-top: 0;
+        height: 0;
+        transform: translateX(-500%);
     }
+
     .menu-botoes{
         display: block;
     }
@@ -29,6 +32,10 @@
     }
     .texto-apresentacao h1{
         font-size: 1rem;
+    }
+
+    #mainID{
+        margin-top: 0rem;
     }
 }
 

@@ -32,19 +32,11 @@ function mudarTema(){
 //Seção do Menu responsivo
 
 function abrirMenu(){
-    let content = document.getElementById('mainID')
+    //Pega o id do body para remover e deixar o menu sem barra de rolagem
+    const content = document.getElementById('mainID')
     //Pegando o menu e a classe para comparar
-    let menu = document.getElementById('menu');
-    let classMenu = menu.getAttribute('class');
-    //Comparando a classe com a classe atual
-    if(classMenu == 'menu'){
-        menu.classList.add('clicado');
-        content.classList.add('hide')
-    }else{
-        menu.classList.remove('clicado');
-        content.classList.remove('hide')
-
-    }
+    const menu = document.getElementById('menu');
+    const classMenu = menu.getAttribute('class');
 
     menu.addEventListener('click',function(event){
         if(classMenu == 'menu clicado'){
@@ -54,13 +46,14 @@ function abrirMenu(){
         }
     })
 
-}
-
-function fecharMenu(){
-    let menu = document.getElementById('menu');
-    let classMenu = menu.getAttribute('class');
-    if(classMenu == 'menu clicado'){
+    //Comparando a classe com a classe atual
+    if(classMenu == 'menu'){
+        menu.classList.add('clicado');
+        content.classList.add('hide')
+    }else{
         menu.classList.remove('clicado');
+        content.classList.remove('hide')
 
     }
 }
+

@@ -104,9 +104,11 @@
     height: 82.5vh;
     transition: 0.5s;
     margin-left: 0;
+    transform: translateY(0);
 }
 .menu.clicado a{
     display: block;
     text-align: left;
     margin: 0 0 2rem 0;
+
 }
