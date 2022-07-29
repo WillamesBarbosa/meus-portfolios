@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+# Bem-vindo ao meu site de porfólios!
+(Site em desenvolvimento...)
 
-You can use the [editor on GitHub](https://github.com/WillamesBarbosa/meus-portfolios/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Aqui será o site onde postarei todos os meus projetos pessoais e profissionais que completar fazendo trabalhos Freelancer.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Funcionalidades e Tecnologias
 
-### Markdown
+* HTML 5 semântico
+* CSS3 com classes escaláveis e reutilizaveis
+* Javascript que efetua a troca de classes e inicia apenas algumas animações
+* Futuramente implementação de ReactJs
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Site hospedado e disponível para testes!
+[Clique aqui](https://willamesbarbosa.github.io/meus-portfolios/)
 
-# Header 1
-## Header 2
-### Header 3
+## O que temos disponível até agora?
+* Dark Mode que além do tema do site, também altera o ícone ao trocar os temas
+* Menu para dispositivos menores
+* Classes reutilizáveis
+* HTML semântico
 
-- Bulleted
-- List
+## O que teremos no futuro?
+* Hall com todos os meus projetos
+* Links para contatos
+* Animações
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WillamesBarbosa/meus-portfolios/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Aguarde futuras atualizações...
